@@ -1,0 +1,66 @@
+.bx-core-adm-dialog .wrapperBlock  {
+	text-align: center;
+}
+.wrapperBlock .toCopyBlock {
+	padding-right: 30px;
+	border: 1px solid #e6e6e6;
+	position:relative;
+	margin-bottom: 40px;
+	padding: 5px;
+}
+.wrapperBlock .toCopyBlock:first-child {
+	display:none;
+}
+.wrapperBlock .toCopyBlock >div {
+    position: absolute;
+    right: 0;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    width: 20px;
+    top: 5px;
+    cursor: pointer;
+	
+}
+.wrapperBlock .toCopyBlock >div.bxlhe-frame {
+	position: relative;
+}
+.adm-workarea .wrapperBlock .toCopyBlock input {
+	display:block;
+	padding: 5px;
+    WIDTH: calc(100% - 40px);
+	margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#data_form_add {
+	padding: 1px 13px 3px;
+	-webkit-border-radius: 4px;
+    border-radius: 4px;
+    border: 0;
+    -webkit-box-shadow: 0 0 1px rgba(0,0,0,.11), 0 1px 1px rgba(0,0,0,.3), inset 0 1px #fff, inset 0 0 1px rgba(255,255,255,.5);
+    box-shadow: 0 0 1px rgba(0,0,0,.3), 0 1px 1px rgba(0,0,0,.3), inset 0 1px 0 #fff, inset 0 0 1px rgba(255,255,255,.5);
+    background-color: #e0e9ec;
+    background-image: -webkit-linear-gradient(bottom,#d7e3e7,#fff)!important;
+    background-image: -moz-linear-gradient(bottom,#d7e3e7,#fff)!important;
+    background-image: -ms-linear-gradient(bottom,#d7e3e7,#fff)!important;
+    background-image: -o-linear-gradient(bottom,#d7e3e7,#fff)!important;
+    background-image: linear-gradient(bottom,#d7e3e7,#fff)!important;
+    color: #3f4b54;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    height: 29px;
+    text-shadow: 0 1px rgba(255,255,255,0.7);
+    text-decoration: none;
+    position: relative;
+    vertical-align: middle;
+    -webkit-font-smoothing: antialiased;
+	outline: 0;
+	line-height: 30px;
+}
+.wrapperBlock .toCopyBlock:nth-child(odd) {
+	/*background-color: lightyellow;*/
+}

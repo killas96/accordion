@@ -1,0 +1,21 @@
+#data_block_BX  .dataBlockBX {
+	padding-left: 20px;
+    position: relative;
+}
+#data_block_BX  .dataBlockBX  input{
+	width: calc(100% - 20px);
+	margin-bottom:2px;
+}
+#data_block_BX  .dataBlockBX>div {
+	position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 0;
+    top: 20px;
+	padding:2px;
+    color: red;
+    font-size: 20px;
+    line-height: 14px;
+    text-align: center;
+	cursor: pointer;
+}
